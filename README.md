@@ -1,3 +1,6 @@
+# LearnTrack
+Student &amp; Course Management System
+
 # LearnTrack - Student & Course Management System
 
 ## Project Description
