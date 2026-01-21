@@ -1,3 +1,75 @@
+LearnTrack – Student & Course Management System
+Project Description
+
+LearnTrack is a console-based Student & Course Management System built using Core Java.
+It allows an admin to manage students, courses, and enrollments through a menu-driven interface.
+
+The project is designed to strengthen Java fundamentals and Object-Oriented Programming (OOP) concepts.
+All data is stored in-memory using Java collections. No database or advanced frameworks are used.
+Learning Focus
+
+This project helps practice:
+
+Core Java syntax and control flow
+
+Classes, objects, and constructors
+
+Encapsulation using getters and setters
+
+Basic inheritance and polymorphism
+
+Static vs instance members
+
+Collections (ArrayList)
+
+Basic exception handling
+
+Clean, modular code structure.
+
+Project Structure
+
+com.airtribe.learntrack
+├── entity     (Student, Course, Enrollment, Person)
+├── service    (Business logic)
+├── ui         (Main – console menu)
+├── exception  (Custom exceptions)
+├── util       (Utility classes)
+└── docs       (Documentation)
+How to Compile and Run
+Prerequisites
+
+JDK 8 or higher
+
+IDE (IntelliJ IDEA recommended) or terminal
+
+Run Using an IDE
+
+Clone the repository
+
+Open the project in your IDE
+
+Run Main.java from com.airtribe.learntrack.ui
+
+Run Using Terminal
+
+javac com/airtribe/learntrack/**/*.java
+java com.airtribe.learntrack.ui.Main
+
+javac com/airtribe/learntrack/**/*.java
+java com.airtribe.learntrack.ui.Main
+Application Features
+
+Add, view, search, and deactivate students
+
+Add, view, activate, and deactivate courses
+
+Enroll students into courses
+
+View and update enrollment status
+
+Graceful handling of invalid inputs.
+
+Class Diagram
 ```mermaid
 classDiagram
 class Person {
@@ -93,3 +165,4 @@ IdGenerator ..> Enrollment
 InvalidInputException <|-- Exception
 EntityNotFoundException <|-- Exception
 ```
+
