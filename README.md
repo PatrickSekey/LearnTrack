@@ -1,4 +1,4 @@
-
+```mermaid
 classDiagram
 class Person {
     - int id
@@ -6,14 +6,14 @@ class Person {
     - String lastName
     - String email
     + String getDisplayName()
-    + getId()
-    + setId()
-    + getFirstName()
-    + setFirstName()
-    + getLastName()
-    + setLastName()
-    + getEmail()
-    + setEmail()
+    + int getId()
+    + void setId(int)
+    + String getFirstName()
+    + void setFirstName(String)
+    + String getLastName()
+    + void setLastName(String)
+    + String getEmail()
+    + void setEmail(String)
 }
 
 class Student {
